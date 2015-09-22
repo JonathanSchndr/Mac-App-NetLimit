@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8F3B6A1704FFCB00BA3B35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8F3B691704FFCB00BA3B35 /* Cocoa.framework */; };
+		AB8F3B6C1704FFCB00BA3B35 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8F3B6B1704FFCB00BA3B35 /* AppleScriptObjC.framework */; };
+		AB8F3B761704FFCB00BA3B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB8F3B741704FFCB00BA3B35 /* InfoPlist.strings */; };
+		AB8F3B781704FFCB00BA3B35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8F3B771704FFCB00BA3B35 /* main.m */; };
+		AB8F3B7C1704FFCC00BA3B35 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB8F3B7A1704FFCC00BA3B35 /* Credits.rtf */; };
+		AB8F3B7E1704FFCC00BA3B35 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = AB8F3B7D1704FFCC00BA3B35 /* AppDelegate.applescript */; };
+		AB8F3B811704FFCC00BA3B35 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8F3B7F1704FFCC00BA3B35 /* MainMenu.xib */; };
+		ABA8114F170E19CD008E0EDC /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = ABA8114E170E19CD008E0EDC /* icon.iconset */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB00314F1793DC69006D82D8 /* NetLimit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NetLimit.entitlements; sourceTree = "<group>"; };
+		AB8F3B661704FFCB00BA3B35 /* NetLimit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetLimit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8F3B691704FFCB00BA3B35 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AB8F3B6B1704FFCB00BA3B35 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		AB8F3B6E1704FFCB00BA3B35 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AB8F3B6F1704FFCB00BA3B35 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AB8F3B701704FFCB00BA3B35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB8F3B731704FFCB00BA3B35 /* NetLimit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetLimit-Info.plist"; sourceTree = "<group>"; };
+		AB8F3B751704FFCB00BA3B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB8F3B771704FFCB00BA3B35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB8F3B791704FFCB00BA3B35 /* NetLimit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetLimit-Prefix.pch"; sourceTree = "<group>"; };
+		AB8F3B7B1704FFCC00BA3B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AB8F3B7D1704FFCC00BA3B35 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		AB8F3B801704FFCC00BA3B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABA8114E170E19CD008E0EDC /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8F3B631704FFCB00BA3B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8F3B6A1704FFCB00BA3B35 /* Cocoa.framework in Frameworks */,
+				AB8F3B6C1704FFCB00BA3B35 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB8F3B5D1704FFCB00BA3B35 = {
+			isa = PBXGroup;
+			children = (
+				ABA8114E170E19CD008E0EDC /* icon.iconset */,
+				AB8F3B711704FFCB00BA3B35 /* NetLimit */,
+				AB8F3B681704FFCB00BA3B35 /* Frameworks */,
+				AB8F3B671704FFCB00BA3B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8F3B671704FFCB00BA3B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8F3B661704FFCB00BA3B35 /* NetLimit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8F3B681704FFCB00BA3B35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8F3B691704FFCB00BA3B35 /* Cocoa.framework */,
+				AB8F3B6B1704FFCB00BA3B35 /* AppleScriptObjC.framework */,
+				AB8F3B6D1704FFCB00BA3B35 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB8F3B6D1704FFCB00BA3B35 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8F3B6E1704FFCB00BA3B35 /* AppKit.framework */,
+				AB8F3B6F1704FFCB00BA3B35 /* CoreData.framework */,
+				AB8F3B701704FFCB00BA3B35 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AB8F3B711704FFCB00BA3B35 /* NetLimit */ = {
+			isa = PBXGroup;
+			children = (
+				AB00314F1793DC69006D82D8 /* NetLimit.entitlements */,
+				AB8F3B7D1704FFCC00BA3B35 /* AppDelegate.applescript */,
+				AB8F3B7F1704FFCC00BA3B35 /* MainMenu.xib */,
+				AB8F3B721704FFCB00BA3B35 /* Supporting Files */,
+			);
+			path = NetLimit;
+			sourceTree = "<group>";
+		};
+		AB8F3B721704FFCB00BA3B35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB8F3B731704FFCB00BA3B35 /* NetLimit-Info.plist */,
+				AB8F3B741704FFCB00BA3B35 /* InfoPlist.strings */,
+				AB8F3B771704FFCB00BA3B35 /* main.m */,
+				AB8F3B791704FFCB00BA3B35 /* NetLimit-Prefix.pch */,
+				AB8F3B7A1704FFCC00BA3B35 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8F3B651704FFCB00BA3B35 /* NetLimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8F3B841704FFCC00BA3B35 /* Build configuration list for PBXNativeTarget "NetLimit" */;
+			buildPhases = (
+				AB8F3B621704FFCB00BA3B35 /* Sources */,
+				AB8F3B631704FFCB00BA3B35 /* Frameworks */,
+				AB8F3B641704FFCB00BA3B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetLimit;
+			productName = NetLimit;
+			productReference = AB8F3B661704FFCB00BA3B35 /* NetLimit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8F3B5E1704FFCB00BA3B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jonathan Schneider";
+			};
+			buildConfigurationList = AB8F3B611704FFCB00BA3B35 /* Build configuration list for PBXProject "NetLimit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB8F3B5D1704FFCB00BA3B35;
+			productRefGroup = AB8F3B671704FFCB00BA3B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8F3B651704FFCB00BA3B35 /* NetLimit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8F3B641704FFCB00BA3B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8F3B761704FFCB00BA3B35 /* InfoPlist.strings in Resources */,
+				AB8F3B7C1704FFCC00BA3B35 /* Credits.rtf in Resources */,
+				AB8F3B811704FFCC00BA3B35 /* MainMenu.xib in Resources */,
+				ABA8114F170E19CD008E0EDC /* icon.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8F3B621704FFCB00BA3B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8F3B781704FFCB00BA3B35 /* main.m in Sources */,
+				AB8F3B7E1704FFCC00BA3B35 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB8F3B741704FFCB00BA3B35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8F3B751704FFCB00BA3B35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB8F3B7A1704FFCC00BA3B35 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8F3B7B1704FFCC00BA3B35 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AB8F3B7F1704FFCC00BA3B35 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8F3B801704FFCC00BA3B35 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB8F3B821704FFCC00BA3B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB8F3B831704FFCC00BA3B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB8F3B851704FFCC00BA3B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NetLimit/NetLimit.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetLimit/NetLimit-Prefix.pch";
+				INFOPLIST_FILE = "NetLimit/NetLimit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB8F3B861704FFCC00BA3B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NetLimit/NetLimit.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetLimit/NetLimit-Prefix.pch";
+				INFOPLIST_FILE = "NetLimit/NetLimit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8F3B611704FFCB00BA3B35 /* Build configuration list for PBXProject "NetLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8F3B821704FFCC00BA3B35 /* Debug */,
+				AB8F3B831704FFCC00BA3B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8F3B841704FFCC00BA3B35 /* Build configuration list for PBXNativeTarget "NetLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8F3B851704FFCC00BA3B35 /* Debug */,
+				AB8F3B861704FFCC00BA3B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8F3B5E1704FFCB00BA3B35 /* Project object */;
+}
